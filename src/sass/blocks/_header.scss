@@ -1,0 +1,133 @@
+.header {
+    // margin-bottom: 50px;
+    z-index: 11;
+    background-color: #145687;
+    position: sticky;
+    top :0;
+
+
+    ul {
+        width: 278px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    a {
+        padding-left: 10px;
+        text-decoration: none;
+        color: white;
+        font-family: 'Open Sans';
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 48px;
+
+
+
+    }
+
+    a.r {
+        border: none;
+        transition: color 1s linear;
+
+        &:hover {
+            border: none;
+            color: #F7D20C;
+        }
+
+    }
+
+    li {
+        list-style-type: none;
+    }
+
+    &__list {
+        display: flex;
+    }
+
+    &__list>li {
+        margin: 0 10px 0 0;
+    }
+
+    &__list>li:hover .sub-header__list {
+        display: block;
+    }
+
+
+
+    &__link {
+        color: black;
+    }
+
+    .sub-header__list {
+        display: none;
+        text-align: center;
+        width: 133px;
+        position: absolute;
+        left: 100px;
+        top: 28px;
+        padding: 20px 0 0 0;
+
+
+    }
+
+    .sub-header__list>li {
+        background-color: #145687;
+
+    }
+
+    .sub-header__link {
+        color: white
+    }
+
+    // min-width: 1250px;
+    // width: 100%;
+    // z-index: 1;
+    // position: absolute;
+    // background-color: #145687;
+    // margin-bottom: 79px;
+
+
+    // &__title {
+
+    //     width: 278px;
+    //     display: flex;
+    //     justify-content: space-between;
+
+
+
+    // }
+
+    // a {
+    //     // position: relative;
+    //     color: white;
+    //     text-transform: uppercase;
+    //     font-family: 'Open Sans';
+    //     font-size: 12px;
+    //     font-weight: 400;
+    //     line-height: 48px;
+    //     // width: 41px;
+    //     transition: color 1s linear;
+
+
+    //     // &:before {
+    //     //     content: '';
+    //     //     position: absolute;
+    //     //     z-index: 1;
+    //     //     top: 0;
+    //     //     left: 0;
+    //     //     width: 36px;
+    //     //     height: 36px;
+    //     //     border-radius: 100%;
+    //     //     background: $main-color;
+    //     // }
+
+    //     &:hover {
+    //         color: #F7D20C;
+    //         background-color: #2C81BA;
+    //         padding: 0 25px;
+    //     }
+
+
+    // }
+
+}
